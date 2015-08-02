@@ -3,19 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
 </head>
 <body>
-	<header class="topbar">
-		<h1>Shopping List</h1>
-	</header>
-	<section>
-		<p class="list-item">Potatoes</p>
-		<p class="list-item">Mozarella</p>
-		<p class="list-item">Carrots</p>
-		<p class="list-item">Cucumber</p>
-		<p class="list-item">Zuchini</p>
-	</section>
+	<div class='container'>	
+		<header>
+			<div class='navbar navbar-default'>
+				<h1>Shopping List</h1>
+			</div>
+		</header>
+		<section class='instructions'>
+		<p>To add an item type item and click add or press enter</p>
+		<p>Click the checkbox to cross an item out</p>
+		<p>Drag to reorder items</p>
+		<hr>
+		</section>
+		<section class='list'>
+			<p><input type="checkbox">&nbsp;potatoes<button type='button'>remove</button></p>
+			<p><input type="checkbox">&nbsp;leeks</p>
+			<p><input type="checkbox">&nbsp;carrots</p>
+			<p><input type="checkbox">&nbsp;cream</p>
+			<p><input type="checkbox">&nbsp;lake trout</p>
+		</section>
+	</div>
 </body>
 </html>
