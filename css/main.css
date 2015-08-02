@@ -7,10 +7,22 @@ section {
 }
  end temporary */
 
+body {
+	background-image: url('../images/market1.jpg');
+	background-repeat: no-repeat;
+	opacity: 0.92;
+}
+
 .container {
-	margin: 10em auto;
+	margin: 6em auto; 
 	padding: 0 2em;
 	max-width: 600px;
+	background-color: #c5c5c5;
+	border-radius: 2%;
+}
+
+.navbar {
+	margin-top: 2em;
 }
 
 h1 {
@@ -19,13 +31,14 @@ h1 {
 }
 
 .instructions {
-	font-size: 1.25em;
-	margin-left: 3em;
+	font-size: 1.2em;
+	margin: 0 1em;
 }
 
 .list {
 	text-align: left;
-	margin: 0 3em;
+	margin: 0 3em 2em;
+
 }
 
 .list p {
@@ -36,4 +49,14 @@ h1 {
 
 button {
 	float: right;
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+    	margin: 2em 2em;
+    }
+
+    h1 {
+    	font-size: 2.5em;
+    }
 }
