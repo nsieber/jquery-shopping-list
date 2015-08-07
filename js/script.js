@@ -9,7 +9,7 @@
 //        listLength = itemList.length
         
         $('#item').on('click', function() {
-            addItem($('#input'))
+            addItem($('#input').val())
         })    
     })
 
